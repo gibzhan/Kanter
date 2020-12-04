@@ -1,0 +1,38 @@
+.footer {
+  background-color: #221C1B;
+  color: #fff;
+  margin-top: 0;
+  
+}
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.foot {
+  width: 252.5px;
+  height: 293px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 15px 20px 0;
+}
+
+.footer-ph {
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.footer-title {
+  font-weight: 700;
+}
+.footer-table {
+  list-style-type: circle;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+.adress {
+  list-style-type: none;
+}

@@ -1,0 +1,39 @@
+header {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 29px 0 19px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar li {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar li i img {
+    width: 10px;
+    height: 10px;
+}
+

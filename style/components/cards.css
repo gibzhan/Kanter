@@ -1,0 +1,35 @@
+.cards {
+  width: 100%;
+  color: #fff;
+  
+}
+
+.cards-main {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.cards-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 298px;
+  padding: 15px 10px 5px 10px;
+}
+
+.dark {
+  background-color: black;
+}
+
+.black {
+  background-color: #221E1B;
+}
+
+h3, p {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+

@@ -1,0 +1,66 @@
+.main {
+  background-image: url("../../images/bg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.main-inner {
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.welcome-kanter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.main h1 {
+  font-size: 45px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;;
+}
+
+.main span {
+  color: #c69c6d;
+}
+
+.main p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.main button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-top: 45px;
+}
+
+.main button a:hover {
+  background-color: aqua;
+  transition: 0.3s;
+}
+
+.main button a {
+  color: #fff;
+  padding: 15px 30px;
+  border: 2px solid #c69c6d; 
+  border-radius: 40px;
+  text-transform: uppercase;
+}
